@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* justify-content: center;
+align-items: center; */
+height: 100vh;
+margin: 0;
+}
+.animated-text {
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+.animated-text h1 {
+    font-size: 36px;
+    opacity: 0; /* Initially invisible */
+    animation: fadeInOut 1s ease infinite; /* Animation properties */
+    display: flex;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+button{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    display: flex;
+}
+table{
+    border: 2px double dodgerblue;
+}

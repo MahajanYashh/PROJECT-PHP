@@ -1,0 +1,75 @@
+/* Cart Page */
+.cart-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: skyblue;
+}
+
+/* Style for cart items */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for product name */
+.product-name {
+    font-weight: bold;
+}
+
+/* Style for quantity and remove button */
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 30px;
+}
+
+.remove-button {
+    background-color: #ff5757;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Style for the total */
+.total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style for the "Back to Product Page" link */
+ .buttons {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+} 
+ button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: midnightblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+
+/* Hover effect */
+button:hover {
+    background-color: mediumturquoise;
+}
